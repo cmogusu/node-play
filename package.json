@@ -1,0 +1,45 @@
+{
+  "name": "diffs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.0.5",
+    "css-loader": "^3.2.0",
+    "deep-diff": "^1.0.2",
+    "diff-match-patch": "^1.0.4",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "extract-loader": "^3.1.0",
+    "file-loader": "^4.2.0",
+    "googleapis": "^40.0.0",
+    "graphql": "^14.4.2",
+    "html-webpack-plugin": "^3.2.0",
+    "jiff": "^0.7.3",
+    "jsondiffpatch": "^0.3.11",
+    "jsonpatch": "^3.0.1",
+    "lodash": "^4.17.15",
+    "mini-css-extract-plugin": "^0.8.0",
+    "open": "^6.3.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "precss": "^4.0.0",
+    "server-destroy": "^1.0.1",
+    "style-loader": "^1.0.0",
+    "superagent": "^5.1.0",
+    "terser-webpack-plugin": "^2.2.1",
+    "url-loader": "^2.2.0",
+    "webpack": "^4.41.2",
+    "webpack-dev-middleware": "^3.7.2",
+    "workbox-build": "^4.3.1"
+  },
+  "scripts": {
+    "start": "nodemon -e js ./index.js",
+    "start:raw": "./index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}

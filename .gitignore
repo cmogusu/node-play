@@ -1,0 +1,10 @@
+.DS_Store
+build/
+node_modules/
+backups/
+patches/
+coverage/
+sprites/
+npm-debug.log
+.idea/*
+.env

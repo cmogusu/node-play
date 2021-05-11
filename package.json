@@ -19,7 +19,7 @@
     "jiff": "^0.7.3",
     "jsondiffpatch": "^0.3.11",
     "jsonpatch": "^3.0.1",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "mini-css-extract-plugin": "^0.8.0",
     "open": "^6.3.0",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
